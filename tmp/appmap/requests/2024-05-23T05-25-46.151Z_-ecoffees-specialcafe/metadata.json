@@ -1,0 +1,18 @@
+{
+  "client": {
+    "name": "appmap-node",
+    "version": "2.23.0",
+    "url": "https://github.com/getappmap/appmap-node"
+  },
+  "language": {
+    "name": "javascript",
+    "engine": "Node.js",
+    "version": "v20.11.0"
+  },
+  "app": "ecaffees",
+  "recorder": {
+    "type": "requests",
+    "name": "requests"
+  },
+  "name": "GET /ecoffees/specialcafe (404) — 2024-05-23T05:25:46.151Z"
+}

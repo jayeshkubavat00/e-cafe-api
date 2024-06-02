@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /ecoffees/nearby",
+    "parameters": "()",
+    "status": 404
+  }
+]

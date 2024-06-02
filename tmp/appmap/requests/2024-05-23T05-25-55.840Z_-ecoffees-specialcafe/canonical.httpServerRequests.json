@@ -1,0 +1,7 @@
+[
+  {
+    "route": "POST /ecoffees/specialcafe",
+    "parameters": "()",
+    "status": 404
+  }
+]

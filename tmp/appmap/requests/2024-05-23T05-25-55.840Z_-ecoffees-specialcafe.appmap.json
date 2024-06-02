@@ -1,0 +1,76 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/ecoffees/specialcafe",
+        "request_method": "POST",
+        "headers": {
+          "User-Agent": "PostmanRuntime/7.39.0",
+          "Accept": "*/*",
+          "Cache-Control": "no-cache",
+          "Postman-Token": "102af5ed-739b-4980-bc93-547c0ebac28c",
+          "Host": "localhost:3000",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Connection": "keep-alive",
+          "Content-Length": "0"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 1,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 404,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Content-Security-Policy": "default-src 'none'",
+          "X-Content-Type-Options": "nosniff",
+          "Content-Type": "text/html; charset=utf-8",
+          "Content-Length": "160"
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /ecoffees/specialcafe</pre>\n</body>\n</html>\n"
+        }
+      },
+      "id": 2,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 0.0013985999976284802
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.23.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v20.11.0"
+    },
+    "app": "ecaffees",
+    "recorder": {
+      "type": "requests",
+      "name": "requests"
+    },
+    "name": "POST /ecoffees/specialcafe (404) — 2024-05-23T05:25:55.840Z"
+  },
+  "classMap": [
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "POST /ecoffees/specialcafe"
+        }
+      ]
+    }
+  ]
+}
